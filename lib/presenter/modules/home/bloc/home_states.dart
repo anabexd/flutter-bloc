@@ -11,3 +11,5 @@ class HomeLoaded implements HomeStates {
 
   List<Object> get props => [pizzas];
 }
+
+class RemovePizza implements HomeStates {}
